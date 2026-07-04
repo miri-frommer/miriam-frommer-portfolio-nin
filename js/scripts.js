@@ -1,3 +1,30 @@
+// ─── Intro Overlay ───
+const introOverlay = document.getElementById('intro-overlay');
+
+if (introOverlay) {
+  const showIntroOverlay = () => {
+    introOverlay.classList.add('visible');
+    introOverlay.setAttribute('aria-hidden', 'false');
+  };
+
+  const hideIntroOverlay = () => {
+    introOverlay.classList.remove('visible');
+    introOverlay.setAttribute('aria-hidden', 'true');
+  };
+
+  window.addEventListener('load', () => {
+    setTimeout(showIntroOverlay, 1450);
+  });
+
+  introOverlay.addEventListener('click', hideIntroOverlay);
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && introOverlay.classList.contains('visible')) {
+      hideIntroOverlay();
+    }
+  });
+}
+
 // ─── Custom Cursor ───
 const cursor = document.getElementById('cursor');
 const trail  = document.getElementById('cursor-trail');

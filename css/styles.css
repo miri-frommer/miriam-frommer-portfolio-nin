@@ -50,6 +50,66 @@ body {
   opacity: 0.5;
 }
 
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.intro-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.intro-overlay__content {
+  width: min(80vw, 560px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+}
+.intro-overlay__content img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 16px 45px rgba(0, 0, 0, 0.32));
+  transform: scale(0.4) rotate(-8deg);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.45s ease;
+}
+.intro-overlay.visible .intro-overlay__content img {
+  animation: introWobble 0.9s ease-out forwards;
+  opacity: 1;
+}
+
+@keyframes introWobble {
+  0% {
+    transform: scale(0.4) rotate(-8deg);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.06) rotate(4deg);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.96) rotate(-2deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+.intro-overlay:not(.visible) .intro-overlay__content img {
+  transform: scale(0.7);
+  opacity: 0;
+}
+
 /* ─── NAV ─── */
 nav {
   position: relative; top: auto; left: auto;
