@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Miram Frommer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-trail"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">miriam<span>.</span>frommer</a>
+    <ul class="nav-links">
+      <li><a href="#about" data-i18n="about">Über mich</a></li>
+      <li><a href="#portfolio" data-i18n="portfolio">Projekte</a></li>
+      <li><a href="#skills" data-i18n="skills">Skills</a></li>
+      <li><a href="#contact" data-i18n="contact">Kontakt</a></li>
+      <li class="lang-item"><button id="lang-toggle" class="btn btn-ghost" aria-label="Sprache wechseln">EN</button></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="hero-content">
+      <h1 data-i18n="hero_h1">Design,<br><em>das vermittelt.</em></h1>
+      <p class="hero-sub" data-i18n="hero_sub">Ich bin eine Designerin & Illustratorin mit einer Leidenschaft für E&#8209;Learning, Character Design und visuelle Konzepte, die wirken.</p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary" data-i18n="cta_portfolio">Meine Arbeiten 🡢</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card">
+          <div class="about-avatar"><img src="Bilder/profilbild.png" alt="Miriam Frommer Comic Portrait" style="width:100%; height:100%; object-fit:cover; border-radius:50%;"/></div>
+          <div class="about-name">Miram Frommer</div>
+          <div class="about-role" data-i18n="about_role">Designerin · Illustratorin · Storytellerin</div>
+          <div class="about-tags">
+            <span class="tag tag-blush">Illustrationen</span>
+            <span class="tag tag-sage">E-Learning</span>
+            <span class="tag tag-lilac">Character Design</span>
+            <span class="tag tag-butter">UI Design</span>
+            <span class="tag tag-lilac">Instructional Design</span>
+            <span class="tag tag-butter">Graphic Design</span>
+            <span class="tag tag-blush">Web Design</span>
+            <span class="tag tag-sage">Media Design</span>
+            <span class="tag tag-blush">Typesetting</span>
+            <span class="tag tag-sage">Wireframing</span>
+            <span class="tag tag-butter">Animation</span>
+            <span class="tag tag-butter">Video</span>
+            <span class="tag tag-lilac">Game Design</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-label" data-i18n="about_label">Über mich</p>
+        <h2><span data-i18n="about_heading_prefix">Hallo, ich bin</span><br><em style="font-family:Fraunces,serif;font-weight:300;font-style:italic">Miriam Frommer.</em></h2>
+        <p data-i18n="about_p1">Ich bringe Ideen visuell zum Leben – von verspielten Charakteren bis hin zu durchdachten Lernkonzepten. Meine Arbeit verbindet Ästhetik mit Funktion.</p>
+        <p data-i18n="about_p2">Mit Erfahrung in Grafik, Illustration und Instructional Design helfe ich Unternehmen und Kreativen, ihre Geschichten auf einzigartige Weise zu erzählen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="portfolio-header reveal">
+      <div>
+        <p class="section-label" data-i18n="portfolio_label">Ausgewählte Arbeiten</p>
+        <h2 data-i18n="portfolio_h2">Projekte</h2>
+      </div>
+    </div>
+    <div class="portfolio-list">
+
+      <!-- 1: Text links, Bild rechts -->
+      <div class="project-row reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj1_cat">Instructional Design</div>
+          <div class="project-title" data-i18n="proj1_title">Screendesigns</div>
+          <div class="project-desc" data-i18n="proj1_desc">E-Learning Screendesigns für Firmen und Themen aller Art. Ein kurzer Überblick über meine beruflichen Schwerpunkte der letzten Jahre.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Instructional Design"
+          data-title="Screendesigns"
+          data-desc-full="Ob E-Learning, Website oder PowerPoint: In den letzten fünf Jahren habe ich für die unterschiedlichsten Kund*innen und Themen Screendesigns entwickelt. Kein Projekt war wie das andere – genau das macht die Arbeit für mich spannend.&#10;Ich arbeite mich schnell in neue Styleguides ein, baue Design-Bibliotheken auf, recherchiere und bearbeite Bildmaterial und erstelle oder optimiere Grafiken. Aus vielen einzelnen Bausteinen entsteht so ein stimmiges Design, das Inhalte klar vermittelt und gleichzeitig gut aussieht.&#10;Dabei habe ich immer Gestaltung, Didaktik und Nutzerfreundlichkeit im Blick. Je nach Projekt übernehme ich auch konzeptionelle Aufgaben, entwickle Ideen für die Umsetzung und denke Inhalte von Anfang an mit.&#10;Häufig endet meine Arbeit nicht beim Design: Viele Trainings setze ich direkt in Autorentools als interaktive E-Learnings um oder ergänze sie durch passende Videos. Auch barrierefreie Gestaltung gehört für mich selbstverständlich dazu und ist ein Bereich, in dem ich viel Erfahrung gesammelt habe."
+          data-img="Bilder/screendesigns-01.jpg"
+          data-en-cat="Instructional Design"
+          data-en-title="Screen Designs"
+          data-en-desc-full="Whether it's e-learning, a website, or PowerPoint, I have created screen designs for a wide range of clients and topics over the last five years. No project was like the other – that is what makes the work exciting for me. I quickly learn new style guides, build design libraries, research and edit imagery, and create or optimize graphics. From many small pieces, a coherent design emerges that communicates content clearly while also looking good. I always keep aesthetics, didactics and usability in mind. Depending on the project, I also take on conceptual tasks, develop ideas for implementation, and think about content from the very beginning. My work often does not stop at design: I implement many trainings directly in authoring tools as interactive e-learning or supplement them with matching videos. Accessible design is also a matter of course for me and a field in which I have gained a lot of experience."
+          data-gallery="row:2|Bilder/screendesigns-03.jpg, Bilder/screendesigns-04.jpg|row:3|Bilder/screendesigns-02.jpg, Bilder/screendesigns-05.jpg,Bilder/screendesigns-06.jpg|row:2|Bilder/screendesigns-powerpoint.jpg, Bilder/screendesigns-login.png|text:Hier unten sieht man mein erstes Experiment mit einem 2D-gezeichneten 360°-Raum für ein E-learning zum Thema Geldwäsche auf einem Stand ohne Interaktionen. Viel Spaß beim Umschauen!|row:1|pano:Bilder/screendesigns-360-grad.png">
+          <img src="Bilder/screendesigns-01.jpg" class="thumb-img" alt="Screendesigns">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+
+      <!-- 2: Bild links, Text rechts -->
+      <div class="project-row reverse reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj2_cat">Illustrationen</div>
+          <div class="project-title" data-i18n="proj2_title">Character Design und Fanart</div>
+          <div class="project-desc" data-i18n="proj2_desc">Ob im E-Learning-Kontext oder privat ist egal – Charaktere gestalten macht immer Spaß. Vom Menschen über Tiere bis zum Koffer ist alles dabei.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Illustrationen"
+          data-title="Character Design und Fanart"
+          data-desc-full="Charaktere zu gestalten ist für mich wahrscheinlich der schönste Teil meiner Arbeit. Umso mehr freue ich mich, dass ich das, was ich privat am liebsten mache, auch beruflich einsetzen durfte. Dabei arbeite ich gerne in ganz unterschiedlichen Stilen und habe besonders viel Spaß daran, Figuren eine eigene Persönlichkeit zu geben.&#10;Kund*innen haben oft geschätzt, dass die Avatare nicht generisch wirkten und keine austauschbaren Stock-Figuren waren. Stattdessen entstanden individuelle Charaktere, die genau zu den jeweiligen Unternehmen, Themen und Zielgruppen passten. Sie konnten vermitteln, worauf es im Arbeitsalltag ankommt, welche Fehler passieren können und wie man mit Herausforderungen umgeht. Manche waren etwas ungeschickt, zu sorglos oder machten typische Anfängerfehler – also ganz ähnlich wie wir alle. Im Laufe der Trainings entwickelten sie sich dann Schritt für Schritt zu echten Expertinnen.&#10;Die Galerie zeigt zunächst eine Auswahl von Charakteren, die ich im beruflichen Kontext entwickeln durfte. Weiter unten folgen einige private Illustrations- und Character-Design-Projekte aus den vergangenen Jahren, in denen ich neue Stile, Ideen und Figuren ausprobiert habe.&#10;Wichtig zu erwähnen: Darunter befinden sich auch einige Fanarts, die ich aus Spaß an der Freude und ohne kommerzielle Absicht erstellt habe. Sie sind alle rein privat entstanden, teilweise schon vor vielen Jahren, und wurden nie für kommerzielle Zwecke genutzt oder veröffentlicht."
+          data-img="Bilder/illus-avatarsammlung.jpg"
+          data-en-cat="Illustrations"
+          data-en-title="Character Design & Fan Art"
+          data-en-desc-full="Designing characters is probably the most enjoyable part of my work. I'm especially happy that what I love to do in private can also be used professionally. I enjoy working in many different styles and especially love giving figures their own personality. Clients often appreciated that the avatars did not look generic or like interchangeable stock images. Instead, individual characters were created that matched the company, topic and audience. They could show what matters in everyday work, what mistakes can happen, and how to handle challenges. Some were a bit clumsy, too careless or made typical beginner mistakes – just like all of us. During trainings they then developed step by step into real experts. The gallery first shows a selection of characters I developed in a professional context. Further down are private illustration and character design projects from recent years where I tried out new styles, ideas and figures. Important to mention: there are also fanarts among them that I created for fun without commercial intent. They were produced privately, sometimes many years ago, and were never used or published for commercial purposes."
+          data-gallery="row:3|Bilder/illus-illustrator.jpg, Bilder/illus-real.jpg, Bilder/illus-wilma.jpg|row:2|Bilder/illus-gross-Infografik.png, Bilder/illus-gross-teamshg.png|row:1|Bilder/illus-gross-lemon.png|text:Es folgen jetzt private Character-Designs und Fanarts:|row:3|Bilder/illus-zeichnung-09.jpg, Bilder/illus-zeichnung-04.jpg, Bilder/illus-zeichnung-07.jpg|row:3|Bilder/illus-zeichnung-12.jpg, Bilder/illus-zeichnung-11.jpg, Bilder/illus-zeichnung-01.jpg|row:3|Bilder/illus-zeichnung-10.jpg, Bilder/illus-zeichnung-02.jpg, Bilder/illus-zeichnung-08.jpg|row:3|Bilder/illus-zeichnung-05.jpg, Bilder/illus-zeichnung-03.jpg, Bilder/illus-zeichnung-13.jpg">
+          <img src="Bilder/illus-avatarsammlung.jpg" class="thumb-img" alt="Character Design">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+
+      <!-- 3: Text links, Bild rechts -->
+      <div class="project-row reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj3_cat">Print</div>
+          <div class="project-title" data-i18n="proj3_title">Druckpublikationen</div>
+          <div class="project-desc" data-i18n="proj3_desc">Ein paar klebrige Sticker, ein frisch gedrucktes Magazin, oder eine drei Meter hohe Messewand – Einfach schön, etwas Gestaltetes anfassen zu können.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Print"
+          data-title="Druckpublikationen"
+          data-desc-full="Ein Glück für mich, dass Printmedien trotz der Digitalisierung nie ganz verschwunden sind – Mein erster realistischer Berufswunsch war Mediendesignerin. Ich liebe es, am Ende etwas Greifbares in den Händen zu halten. Es hat einfach etwas Besonderes, ein Projekt nicht nur auf dem Bildschirm zu sehen, sondern als echtes Produkt vor sich zu haben.&#10;In den vergangenen Jahren durfte ich die unterschiedlichsten Druckprodukte gestalten, für den Druck vorbereiten und bis zur Produktion begleiten. Dazu gehörten unter anderem Messestände, Flyer, Visitenkarten, Broschüren, Magazine, Stickerbögen, Goodies, Flaschen und viele weitere Formate. Jedes Medium bringt eigene Anforderungen mit sich – von Material und Format bis hin zu Farbprofilen und Druckverfahren.&#10;Besonders spannend finde ich dabei den Moment, wenn aus einer digitalen Datei ein reales Objekt wird. Zu sehen, wie aus einer Idee etwas entsteht, das Menschen anfassen, mitnehmen oder sogar über Jahre hinweg nutzen können, macht für mich nach wie vor einen großen Teil der Faszination von Gestaltung aus."
+          data-img="Bilder/print-magazine-01.jpg"
+          data-en-cat="Print"
+          data-en-title="Print Publications"
+          data-en-desc-full="Luckily for me, print media never completely disappeared despite digitalization – my first realistic career aspiration was media designer. I love having something tangible in my hands at the end. There is something special about not just seeing a project on a screen, but holding a real object. In recent years I have designed a wide variety of print products and accompanied them to production. These included exhibition stands, flyers, business cards, brochures, magazines, sticker sheets, goodies, bottles and many other formats. Every medium brings its own requirements – from material and format to color profiles and printing processes. What I find particularly exciting is the moment when a digital file becomes a real object. Seeing an idea become something people can touch, take with them, or even use for years is still a big part of the fascination of design for me."
+          data-gallery="row:3|Bilder/print-magazine-07.jpg, Bilder/print-magazine-06.jpg, Bilder/print-magazine-05.jpg|row:3|Bilder/print-magazine-04.jpg, Bilder/print-magazine-03.jpg, Bilder/print-magazine-02.jpg|row:1|Bilder/print-whitepaper.png|row:2|Bilder/print-legends-vorschau.png, Bilder/print-legends-foto.png|row:2|Bilder/print-ecs-vorschau.png, Bilder/print-ecs-foto.png|row:2|Bilder/print-partnermesse-vorschau.png, Bilder/print-partnermesse-foto.png|row:2|Bilder/print-bottle-vorschau.png, Bilder/print-bottle-foto.png|row:2|Bilder/print-stickerboegen.png, Bilder/print-sticker-strategie.png">
+          <img src="Bilder/print-magazine-01.jpg" class="thumb-img" alt="Druckpublikationen">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+
+      <!-- 4: Bild links, Text rechts -->
+      <div class="project-row reverse reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj4_cat">Soziales Engagement</div>
+          <div class="project-title" data-i18n="proj4_title">Mutismus Selbsthilfe Deutschland e.V.</div>
+          <div class="project-desc" data-i18n="proj4_desc">Hier unterstütze ich in der Kommunikation durch Grafiken und als Setzerin für Prints wie Broschüren und Messewände.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Soziales Engagement"
+          data-title="Mutismus Selbsthilfe Deutschland e.V."
+          data-desc-full="Mutismus ist eine Kommunikationsstörung, bei der betroffene Menschen in bestimmten Situationen oder gegenüber bestimmten Personen nicht sprechen können, obwohl sie körperlich dazu in der Lage wären. Der Mutismus Selbsthilfe Deutschland e. V. setzt sich dafür ein, Betroffene und Angehörige zu informieren, zu vernetzen und das Bewusstsein für das Thema in der Öffentlichkeit zu stärken.&#10;Seit 2024 unterstütze ich den Verein ehrenamtlich in der visuellen Kommunikation. Dazu gehören Illustrationen für den Webauftrittebenso wie die Gestaltung und der Satz von Broschüren, Roll-ups und weiteren Materialien für Veranstaltungen und Informationsangebote.&#10;Besonders wichtig war dabei, an bereits bestehende Gestaltungselemente anzuknüpfen. Statt einen völlig neuen Stil einzuführen, habe ich vorhandene Grafiken und Illustrationen aufgegriffen und weitergeführt, sodass neue Materialien sich nahtlos in das bestehende Erscheinungsbild des Vereins einfügen.&#10;Bei der abgebildeten Broschüre war ich als Setzerin tätig. Sie ist für Kinderarztpraxen gedacht und liegt dort als Information aus."
+          data-img="Bilder/mutismus-01.jpg"
+          data-en-cat="Social Engagement"
+          data-en-title="Mutism Self-Help Germany"
+          data-en-desc-full="Mutism is a communication disorder in which affected people cannot speak in certain situations or with certain people, even though they are physically able to do so. Mutism Self-Help Germany e.V. works to inform and connect those affected and their relatives, and to raise awareness of the issue in public. Since 2024 I have been supporting the association voluntarily in visual communication. This includes illustrations for the website as well as the design and typesetting of brochures, roll-ups and other materials for events and information offerings. It was particularly important to build on existing design elements. Rather than introducing a completely new style, I took up existing graphics and continued them so that new materials fit seamlessly into the association's existing visual identity. The brochure shown here was created as a typesetting project. It is intended for pediatric practices and is distributed there as informational material."
+          data-gallery="row:2|Bilder/mutismus-02.png, Bilder/mutismus-03.png|row:1|Bilder/mutismus-04.png">
+          <img src="Bilder/mutismus-01.jpg" class="thumb-img" alt="Mutismus Selbsthilfe">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+
+      <!-- 5: Text links, Bild rechts -->
+      <div class="project-row reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj5_cat">Bewegtbild</div>
+          <div class="project-title" data-i18n="proj5_title">Animationen & Videos</div>
+          <div class="project-desc" data-i18n="proj5_desc">Von animierten Social-Media-Posts über Erklärvideos bis zu KI-generierten Sequenzen – digitale Bewegtbilder bringen Inhalte dynamisch zum Leben.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Bewegtbild"
+          data-title="Animationen & Videos"
+          data-desc-full="Bewegtbilder sind ein faszinierendes Medium, um Aufmerksamkeit zu schaffen und Inhalte lebendig zu machen. In den letzten Jahren habe ich in diesem Bereich vielfältig experimentiert und mich dabei mit unterschiedlichsten Techniken auseinandergesetzt.&#10;Ich nutze Motion Design Ideen, um Erklärvideos und Social Media Story-Animationen zu erschaffen. Dafür verwende ich am liebsten Adobe After Effects, da es in diesem mächtigen Tool immer etwas neues zu entdecken gibt. Die Erklärvideos sind besonders im E-Learning-Kontext wertvoll, wo sie dazu beitragen, abstrakte Inhalte greifbar zu machen. Um Keyframe-Animationen zu erstellen habe ich mich schon in mehrere Tools eingearbeitet und Dinge wie die 12 Animationsprinzipien mit großem Interesse gelernt.&#10;Ein großes Thema ist natürlich auch die Erstellung und Verwendung von KI-generierten Videos und Animationen. Ich experimentiere damit, wie diese Tools sinnvoll eingesetzt werden können, um Produktionsprozesse zu optimieren, ohne dabei die Qualität oder den persönlichen Touch zu verlieren. Dabei geht es nicht darum, komplett auf AI zu setzen, sondern sie intelligent als Werkzeug im Designprozess zu nutzen.&#10;Jedes Projekt ist eine Gelegenheit, neue Techniken zu lernen und herauszufinden, wie Bewegtbilder am effektivsten Geschichten erzählen können."
+          data-img="Bilder/bewegtbild_thumbnail.png"
+          data-video="Bilder/bewegtbild.mp4"
+          data-en-cat="Moving Images"
+          data-en-title="Animations & Videos"
+          data-en-desc-full="Moving images are a fascinating medium for capturing attention and bringing content to life. Over the past few years, I’ve experimented extensively in this field and explored a wide variety of techniques.&#10;I use motion design ideas to create explanatory videos and social media story animations. My tool of choice is Adobe After Effects, as there’s always something new to discover in this powerful program. Explanatory videos are particularly valuable in an e-learning context, where they help make abstract content more comprehensible. To create keyframe animations, I’ve already familiarized myself with several tools and studied concepts like the 12 principles of animation with great interest.&#10;Another major topic, of course, is the creation and use of AI-generated videos and animations. I’m experimenting with how these tools can be used effectively to optimize production processes without sacrificing quality or losing that personal touch. It’s not about relying entirely on AI, but rather using it intelligently as a tool in the design process.&#10;Every project is an opportunity to learn new techniques and discover how moving images can most effectively tell stories.">
+          <img src="Bilder/bewegtbild_thumbnail.png" class="thumb-img" alt="Bewegtbild">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+
+      <!-- 6: Bild links, Text rechts -->
+      <div class="project-row reverse reveal">
+        <div class="project-info">
+          <div class="project-cat" data-i18n="proj6_cat">Miscellaneous</div>
+          <div class="project-title" data-i18n="proj6_title">Dies und Das aus dem Studium</div>
+          <div class="project-desc" data-i18n="proj6_desc">Auch wenn es schon länger als fünf Jahre her ist, möchte ich hier trotzdem Projekte aus meiner Studienzeit zeigen, auf die ich heute noch ein bisschen Stolz bin.</div>
+        </div>
+        <div class="project-thumb"
+          data-cat="Miscellaneous"
+          data-title="Dies und Das aus dem Studium"
+          data-desc-full="Das erste Projekt wäre wäre die Chore Alarm App aus einem iOS App Development Kurs. Dabei habe ich mit einem Komillitonen zusammen eine App entwickelt, die die Nutzenden an ihre täglichen Aufgaben zuhause erinnern soll – Blumen gießen, Bad putzen, Müll rausbringen. Hier habe ich nicht nur die Grafiken und die Oberfläche gestaltet, sondern auch die App an sich in Swift UI programmiert.&#10;Das zweite Projekt zeigt Grafiken aus einem interdisziplinären Semesterprojekt mit dem Schwerpunkt Game Design. Hier bin ich das erste Mal mit Adobe After Effects und SVG-Animationen in Berührung gekommen und habe mich direkt verliebt. Auch wenn am Ende wegen Komplikationen kein echtes Spiel entstanden ist, gab es wenige Projekte im Studium, bei denen ich so viel gelernt habe.&#10;Anschließend das letzte Projekt: Ein Instagram-Account, auf dem ich und eine Freundin während dem Studium etwas tiefer in die Welt des Social Media eintauchen wollten. Wir haben individuell angefertigte Comic-Illustrationen von Menschen in ihren gewünschten Comic-Stilen erstellt. Hier habe ich einen kleinen Einblick in unseren Styleguide."
+          data-img="Bilder/sonstiges-chore.jpg"
+          data-en-cat="Miscellaneous"
+          data-en-title="Bits and Pieces from University"
+          data-en-desc-full="The first project is the Chore Alarm app from an iOS app development course. Together with a fellow student I developed an app that reminds users of daily household tasks – watering plants, cleaning the bathroom, taking out the trash. I not only designed the graphics and interface, but also programmed the app itself in SwiftUI. The second project shows graphics from an interdisciplinary semester project with a focus on game design. For the first time I worked with Adobe After Effects and SVG animations, and I immediately fell in love with them. Although no real game was created in the end due to complications, this project was one of the experiences from my studies where I learned the most. Finally, a student Instagram account where a friend and I explored the world of social media. We created custom comic illustrations of people in their desired styles. Here you can see a small insight into our style guide."
+          data-gallery="row:2|Bilder/sonstiges-forever.jpg, Bilder/sonstiges-toons.jpg">
+          <img src="Bilder/sonstiges-chore.jpg" class="thumb-img" alt="Dies und Das aus dem Studium">
+          <span class="zoom-hint">Vergrößern 🡢</span>
+        </div>
+      </div>
+      
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="portfolio-header reveal" style="width: 100%; max-width: 900px; text-align: left; margin-bottom: 2.5rem;">
+      <div>
+        <p class="section-label" data-i18n="skills_label">Was ich mitbringe</p>
+        <h2 data-i18n="skills_h2">Skills & Tools</h2>
+      </div>
+    </div>
+
+<div class="skills-canvas">
+
+      <!-- Schnure - ganz hinten -->
+      <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0;" viewBox="0 0 680 748" fill="none">
+        <path d="M340 700 C338 620 310 540 278 430" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C342 610 358 520 365 410" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C352 610 385 510 415 400" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C330 610 295 510 268 400" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C348 620 400 520 448 420" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C332 615 282 510 245 400" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C344 618 370 518 388 415" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C336 618 314 518 300 415" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C350 625 418 528 462 435" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C328 625 262 528 218 435" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C342 622 354 524 358 425" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C338 622 326 524 322 425" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+        <path d="M340 700 C346 624 380 522 402 428" stroke="#c8b8a2" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+      </svg>
+
+      <!-- Schleife -->
+      <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;" viewBox="0 0 680 748" fill="none">
+        <path d="M338 708 C328 694 298 682 280 690 C264 698 268 716 282 721 C300 728 328 714 338 708Z" stroke="#f5c9c0" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M342 705 C352 693 376 686 390 694 C404 702 400 716 387 720 C370 726 350 712 342 705Z" stroke="#f5c9c0" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M280 721 C272 732 260 742 248 755 C240 764 235 772 232 780" stroke="#f5c9c0" stroke-width="1.3" stroke-linecap="round" opacity="0.75"/>
+        <path d="M387 720 C396 730 408 740 418 750 C426 758 430 766 428 774" stroke="#f5c9c0" stroke-width="1.3" stroke-linecap="round" opacity="0.75"/>
+        <circle cx="340" cy="707" r="2.5" fill="#f5c9c0" opacity="0.9"/>
+      </svg>
+
+      <!-- Blobs -->
+      <div class="blobs-wrapper" style="position: absolute; inset: 0; z-index: 2;">
+        <div style="position: absolute; left: 46%; top: 18%; width: 28%; height: 22%; transform: translate(-50%, -50%); background: #f5c9c0; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 8s ease-in-out 0s infinite;"></div>
+        <div style="position: absolute; left: 28%; top: 24%; width: 22%; height: 18%; transform: translate(-50%, -50%); background: #d4c5e8; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 9s ease-in-out -2s infinite;"></div>
+        <div style="position: absolute; left: 61%; top: 22%; width: 24%; height: 20%; transform: translate(-50%, -50%); background: #b5c9b7; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 10s ease-in-out -4s infinite;"></div>
+        <div style="position: absolute; left: 39%; top: 34%; width: 32%; height: 24%; transform: translate(-50%, -50%); background: #f7e6a2; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 8s ease-in-out -1s infinite;"></div>
+        <div style="position: absolute; left: 24%; top: 36%; width: 20%; height: 16%; transform: translate(-50%, -50%); background: #f5c9c0; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 11s ease-in-out -3s infinite;"></div>
+        <div style="position: absolute; left: 68%; top: 32%; width: 22%; height: 18%; transform: translate(-50%, -50%); background: #d4c5e8; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 9s ease-in-out -5s infinite;"></div>
+        <div style="position: absolute; left: 34%; top: 46%; width: 26%; height: 20%; transform: translate(-50%, -50%); background: #b5c9b7; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 10s ease-in-out -2s infinite;"></div>
+        <div style="position: absolute; left: 56%; top: 44%; width: 24%; height: 18%; transform: translate(-50%, -50%); background: #f5c9c0; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 8s ease-in-out -6s infinite;"></div>
+        <div style="position: absolute; left: 18%; top: 46%; width: 18%; height: 14%; transform: translate(-50%, -50%); background: #f7e6a2; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 12s ease-in-out -1s infinite;"></div>
+        <div style="position: absolute; left: 74%; top: 42%; width: 20%; height: 16%; transform: translate(-50%, -50%); background: #b5c9b7; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 9s ease-in-out -4s infinite;"></div>
+        <div style="position: absolute; left: 46%; top: 56%; width: 22%; height: 16%; transform: translate(-50%, -50%); background: #d4c5e8; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 10s ease-in-out -3s infinite;"></div>
+        <div style="position: absolute; left: 30%; top: 58%; width: 20%; height: 16%; transform: translate(-50%, -50%); background: #f5c9c0; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 8s ease-in-out -2s infinite;"></div>
+        <div style="position: absolute; left: 55%; top: 56%; width: 22%; height: 16%; transform: translate(-50%, -50%); background: #f7e6a2; opacity: 0.75; border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%; animation: blobFloat 11s ease-in-out -5s infinite;"></div>
+      </div>
+
+      <!-- Wörter -->
+      <div class="words" style="position: absolute; inset: 0; z-index: 3;">
+        <span data-i18n="skills_word_1" style="position: absolute; left: 52%; top: 30%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6s ease-in-out 0s infinite;">Illustrieren</span>
+        <span data-i18n="skills_word_2" style="position: absolute; left: 37%; top: 35%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6.7s ease-in-out -1.3s infinite;">HTML & CSS</span>
+        <span data-i18n="skills_word_3" style="position: absolute; left: 63%; top: 32%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 7.4s ease-in-out -2.6s infinite;">Kreativität</span>
+        <span data-i18n="skills_word_4" style="position: absolute; left: 41%; top: 46%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 8.1s ease-in-out -3.9s infinite;">Adobe Photoshop</span>
+        <span data-i18n="skills_word_5" style="position: absolute; left: 64%; top: 48%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6s ease-in-out -5.2s infinite;">Design</span>
+        <span data-i18n="skills_word_6" style="position: absolute; left: 48%; top: 20%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6.7s ease-in-out -6.5s infinite;">Claude AI</span>
+        <span data-i18n="skills_word_7" style="position: absolute; left: 31%; top: 24%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 7.4s ease-in-out 0s infinite;">Barrierefreiheit</span>
+        <span data-i18n="skills_word_8" style="position: absolute; left: 67%; top: 22%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 8.1s ease-in-out -1.3s infinite;">Adobe Illustrator</span>
+        <span data-i18n="skills_word_9" style="position: absolute; left: 25%; top: 37%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6s ease-in-out -2.6s infinite;">Teamplay</span>
+        <span data-i18n="skills_word_10" style="position: absolute; left: 74%; top: 38%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6.7s ease-in-out -3.9s infinite;">Typesetting</span>
+        <span data-i18n="skills_word_11" style="position: absolute; left: 28%; top: 51%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 7.4s ease-in-out -5.2s infinite;">Firefly AI</span>
+        <span data-i18n="skills_word_12" style="position: absolute; left: 70%; top: 52%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 8.1s ease-in-out -6.5s infinite;">Adobe After Effects</span>
+        <span data-i18n="skills_word_13" style="position: absolute; left: 53%; top: 58%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6s ease-in-out 0s infinite;">Problemlösungen</span>
+        <span data-i18n="skills_word_14" style="position: absolute; left: 49%; top: 14%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6.7s ease-in-out -1.3s infinite;">HeyGen AI</span>
+        <span data-i18n="skills_word_15" style="position: absolute; left: 30%; top: 16%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 7.4s ease-in-out -2.6s infinite;">Adobe InDesign</span>
+        <span data-i18n="skills_word_16" style="position: absolute; left: 69%; top: 17%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 8.1s ease-in-out -3.9s infinite;">ChatGPT AI</span>
+        <span data-i18n="skills_word_17" style="position: absolute; left: 20%; top: 29%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6s ease-in-out -5.2s infinite;">Durchblick</span>
+        <span data-i18n="skills_word_18" style="position: absolute; left: 79%; top: 31%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 6.7s ease-in-out -6.5s infinite;">DE Muttersprache</span>
+        <span data-i18n="skills_word_19" style="position: absolute; left: 47%; top: 63%; transform: translate(-50%, -50%); font-size: 0.82rem; font-weight: 500; color: #2a2320; white-space: nowrap; pointer-events: none; animation: wordFloat 7.4s ease-in-out 0s infinite;">EN fließend</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="contact-heading">
+        <p class="section-label" data-i18n="contact_label">Sag Hallo</p>
+        <h2 data-i18n="contact_h2">Lass uns etwas<br><em style="font-family:Fraunces,serif;font-weight:300;font-style:italic">Schönes bauen.</em></h2>
+      </div>
+      <div class="contact-details">
+        <div class="contact-detail-block">
+          <div class="contact-detail-label" data-i18n="contact_email">E-Mail</div>
+          <a href="mailto:miri_frommer@gmx.net" class="contact-detail-value">miri_frommer@gmx.net</a>
+        </div>
+        <div class="contact-detail-block">
+          <div class="contact-detail-label" data-i18n="contact_phone">Telefon</div>
+          <div class="contact-detail-value">+49 155 66 851 178</div>
+        </div>
+        <div class="contact-detail-block">
+          <div class="contact-detail-label" data-i18n="contact_address">Adresse</div>
+          <div class="contact-detail-value">Rosensteinstraße 29<br>70191 Stuttgart</div>
+        </div>
+        <div class="contact-detail-block">
+          <div class="contact-detail-label" data-i18n="contact_online">Online</div>
+          <div class="contact-detail-value">
+            <a href="https://www.linkedin.com/in/miriam-frommer/" class="contact-detail-link" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/kohakukuku/" class="contact-detail-link" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p data-i18n="footer_text">© 2026 Miriam Frommer · Mit ♡ und Claude AI gestaltet · Alle Rechte vorbehalten.</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox">
+    <div id="lightbox-backdrop"></div>
+    <div id="lightbox-box">
+      <button id="lightbox-close">✕</button>
+      <div id="lightbox-thumb"></div>
+      <div id="lightbox-panorama">
+        <div id="panorama-viewer"></div>
+      </div>
+      <p class="panorama-hint" id="panorama-hint" style="display:none" data-i18n="panorama_hint">🖱️ Ziehen zum Umsehen · Scrollen zum Zoomen</p>
+      <div id="lightbox-info">
+        <div id="lightbox-cat"></div>
+        <div id="lightbox-title"></div>
+        <div id="lightbox-desc"></div>
+        <div id="lightbox-gallery"></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>
