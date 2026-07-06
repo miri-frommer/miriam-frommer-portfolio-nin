@@ -254,7 +254,7 @@ const translations = {
   about_label: { de: 'Über mich', en: 'About me' },
   about: { de: 'Über mich', en: 'About' },
   about_heading_prefix: { de: 'Hallo, ich bin', en: 'Hi, I am' },
-  about_role: { de: 'Designerin · Illustratorin · Storytellerin', en: 'Designer · Illustrator · Storyteller' },
+  about_role: { de: 'Eierlegende Wollmilchsau :)', en: 'Jack-of-all-trades :)' },
   about_p1: { de: 'Ich bringe Ideen visuell zum Leben – von verspielten Charakteren bis hin zu durchdachten Lernkonzepten. Meine Arbeit verbindet Ästhetik mit Funktion.', en: 'I bring ideas to life visually — from playful characters to well-considered learning concepts. My work combines aesthetics with function.' },
   about_p2: { de: 'Mit Erfahrung in Grafik, Illustration und Instructional Design helfe ich Unternehmen und Kreativen, ihre Geschichten auf einzigartige Weise zu erzählen.', en: 'With experience in graphic design, illustration and instructional design, I help companies and creatives tell their stories in unique ways.' },
   portfolio_label: { de: 'Ausgewählte Arbeiten', en: 'Selected Works' },
@@ -264,13 +264,13 @@ const translations = {
   proj1_title: { de: 'Screendesigns', en: 'Screen Designs' },
   proj1_desc: { de: 'E-Learning Screendesigns für Firmen und Themen aller Art. Ein kurzer Überblick über meine beruflichen Schwerpunkte der letzten Jahre.', en: 'E-learning screen designs for companies and various topics. A brief overview of my main focuses in recent years.' },
   proj2_cat: { de: 'Illustrationen', en: 'Illustrations' },
-  proj2_title: { de: 'Character Design und Fanart', en: 'Character Design & Fan Art' },
+  proj2_title: { de: 'Character Design & Fanart', en: 'Character Design & Fan Art' },
   proj2_desc: { de: 'Ob im E-Learning-Kontext oder privat ist egal – Charaktere gestalten macht immer Spaß. Vom Menschen über Tiere bis zum Koffer ist alles dabei.', en: 'Whether in e-learning or private projects — designing characters is always fun. From people to animals and even inanimate objects.' },
-  proj3_cat: { de: 'Print', en: 'Print' },
+  proj3_cat: { de: 'Print & Marketing', en: 'Print & Marketing' },
   proj3_title: { de: 'Druckpublikationen', en: 'Print Publications' },
   proj3_desc: { de: 'Ein paar klebrige Sticker, ein frisch gedrucktes Magazin, oder eine drei Meter hohe Messewand – Einfach schön, etwas Gestaltetes anfassen zu können.', en: 'Sticky stickers, a freshly printed magazine, or a three-meter exhibition wall — it’s lovely to hold a designed object in your hands.' },
   proj4_cat: { de: 'Soziales Engagement', en: 'Social Engagement' },
-  proj4_title: { de: 'Mutismus Selbsthilfe Deutschland e.V.', en: 'Mutism Self-Help Germany' },
+  proj4_title: { de: 'Mutismus Selbsthilfe Deutschland e.V.', en: 'German Self-Help Association for Mutism' },
   proj4_desc: { de: 'Hier unterstütze ich in der Kommunikation durch Grafiken und als Setzerin für Prints wie Broschüren und Messewände.', en: 'I support communication through graphics and layout for printed materials like brochures and exhibition displays.' },
   proj5_cat: { de: 'Bewegtbild', en: 'Moving Images' },
   proj5_title: { de: 'Animationen & Videos', en: 'Animations & Videos' },
@@ -282,24 +282,35 @@ const translations = {
   skills: { de: 'Skills', en: 'Skills' },
   skills_h2: { de: 'Skills & Tools', en: 'Skills & Tools' },
   skills_word_1: { de: 'Illustrieren', en: 'Illustration' },
-  skills_word_2: { de: 'HTML & CSS', en: 'HTML & CSS' },
-  skills_word_3: { de: 'Kreativität', en: 'Creativity' },
+  skills_word_2: { de: 'HTML/CSS/JS', en: 'HTML/CSS/JS' },
   skills_word_4: { de: 'Adobe Photoshop', en: 'Adobe Photoshop' },
   skills_word_5: { de: 'Design', en: 'Design' },
   skills_word_6: { de: 'Claude AI', en: 'Claude AI' },
   skills_word_7: { de: 'Barrierefreiheit', en: 'Accessibility' },
   skills_word_8: { de: 'Adobe Illustrator', en: 'Adobe Illustrator' },
-  skills_word_9: { de: 'Teamplay', en: 'Teamwork' },
   skills_word_10: { de: 'Typesetting', en: 'Typesetting' },
   skills_word_11: { de: 'Firefly AI', en: 'Firefly AI' },
   skills_word_12: { de: 'Adobe After Effects', en: 'Adobe After Effects' },
-  skills_word_13: { de: 'Problemlösungen', en: 'Problem solving' },
   skills_word_14: { de: 'HeyGen AI', en: 'HeyGen AI' },
   skills_word_15: { de: 'Adobe InDesign', en: 'Adobe InDesign' },
   skills_word_16: { de: 'ChatGPT AI', en: 'ChatGPT AI' },
-  skills_word_17: { de: 'Durchblick', en: 'Clarity' },
   skills_word_18: { de: 'DE Muttersprache', en: 'Native German' },
   skills_word_19: { de: 'EN fließend', en: 'Fluent English' },
+  skills_word_20: { de: 'Adobe Premiere Pro', en: 'Adobe Premiere Pro' },
+  skills_word_21: { de: 'Adobe Character Animator', en: 'Adobe Character Animator' },
+  skills_word_22: { de: 'Marketing', en: 'Marketing' },
+  skills_word_23: { de: 'Künstliche Intelligenz', en: 'Artificial Intelligence' },
+  skills_word_24: { de: 'Merchandise', en: 'Merchandise' },
+  skills_word_25: { de: 'Branding', en: 'Branding' },
+  skills_word_26: { de: 'Videobearbeitung', en: 'Video Editing' },
+  skills_word_27: { de: 'Motion Design', en: 'Motion Design' },
+  skills_word_28: { de: 'Game Design', en: 'Game Design' },
+  skills_word_29: { de: 'Animationen', en: 'Animation' },
+  skills_word_30: { de: 'Wireframing', en: 'Wireframing' },
+  skills_word_31: { de: 'Prototyping', en: 'Prototyping' },
+  skills_word_33: { de: 'Corporate Identity', en: 'Corporate Identity' },
+  skills_word_35: { de: 'E-Learning', en: 'E-Learning' },
+  skills_word_36: { de: 'JP Anfänger', en: 'Japanese Beginner' },
   contact_label: { de: 'Sag Hallo', en: 'Say Hello' },
   contact: { de: 'Kontakt', en: 'Contact' },
   contact_h2: { de: 'Lass uns etwas\nSchönes bauen.', en: 'Let’s build something\nbeautiful.' },
@@ -348,7 +359,7 @@ function applyLang(lang) {
 
 if (langToggle) {
   langToggle.addEventListener('click', () => {
-    const current = localStorage.getItem('site-lang') || 'de';
+    const current = localStorage.getItem('site-lang') || 'en';
     const next = current === 'de' ? 'en' : 'de';
     applyLang(next);
   });
@@ -356,6 +367,6 @@ if (langToggle) {
 
     (function() {
       const stored = localStorage.getItem('site-lang');
-      // Default to German unless user explicitly chose otherwise
-      applyLang(stored || 'de');
+      // Default to English unless user explicitly chose otherwise
+      applyLang(stored || 'en');
     })();
